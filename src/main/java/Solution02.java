@@ -9,17 +9,19 @@ import java.util.Scanner;
 
 public class Solution02
 {
+    /*
+        prompt user for string of characters
+            user inputs strong
+        read the number of characters in the string
+        print string of characters and the number of characters in the string
+     */
+
     public static void main(String[] args)
     {
         Scanner characters = new Scanner(System.in);
-        // variable to get input
         System.out.println("Enter a string of characters:");
-        // prompts user to input a string of characters
         String input = characters.nextLine();
-        // gets user string input
         int length = input.length();
-        // reads string length
         System.out.println(input + " has " + length + " characters.");
-        // outputs string input and string length
     }
 }
